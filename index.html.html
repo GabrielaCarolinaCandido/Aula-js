@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        alert ("ola mundo")
+    </script>
+    <form name="contact">
+       <h1>Contact</h1>
+        
+       <label for="nome">Nome</label>
+       <input type="text" id="nomeid"
+        placeholder="Insira seu nome" required="required" name="nome" />
+       
+        <label for="fone">Telefone</label>
+        <input type="tel" id="foneid"
+        placeholder="(xx)xxxx-xxxx" required="required" name="fone"/>
+      
+      <textarea placeholder="Insert your comments"></textarea>
+      <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"/>
+
+     
+      <input type="text" id="cep" value=" "  size="10"   maxlength="9"  name="cep"
+      onblur="pesquisacep(this.value)"/>
+      
+     
+     
+
+       
+         
+        
+    </form>
+    <script type="text/javascript" src="forms.js"></script>
+
+</body>
+</html>
